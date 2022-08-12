@@ -1,0 +1,115 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+
+.container{
+  width: 40rem;
+  height: 80vh;
+  background-color: var(--blue-2);
+  border-radius:2rem;
+  box-shadow: 1rem 1rem 1rem var(--shadow-dark);
+
+}
+.upper-data{
+  position: relative;
+  overflow:hidden;
+  width:100%;
+  height:50%;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+
+.lower-data {
+  position: relative;
+  overflow:hidden;
+  width: 100%;
+  height: 50%;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  padding: 1em;
+  display:flex;
+  flex-direction: column;
+
+}
+.upper-data img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.weather-data{
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background-color: var(--shadow-dark);
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+
+}
+
+.location{
+  color: var(--white);
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.temperature{
+  color: var(--white);
+  font-size: 4em;
+  text-align: center;
+  font-weight: 900;
+}
+
+.more-info-label{
+  color: var(--white);
+
+}
+
+.more-info-container{
+  flex: 1;
+  background-color: var(--shadow-light);
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.info-block{
+  width: 50%;
+  display:flex;
+  flex-direction: row;
+
+}
+
+.info-block-label{
+  width: 50%;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+
+}
+.info-block-label img {
+  width: 1.5em;
+}
+.info-block-label span {
+  color: var(--white);
+  font-size: 0.8em;
+}
+
+.info-block-value {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--white);
+}
+
